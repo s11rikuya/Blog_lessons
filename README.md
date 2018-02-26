@@ -3,10 +3,15 @@
 - Ruby on  Rails でBlogを作る
 - GitHubにソースをアップする
 
-Blogの仕様
+# Blogの仕様
 - トップページに記事が時系列で表示される
 - 個別の記事ページがある
 - タイトル、本文を登録できる
 - 記事にコメントできる
+- slim, sass, coffeescript を使う
+- bootstrap ベースのデザインを使う
+
+# 進行状況
+2018/2/27 blog機能 コメント機能完成 残り
 - slim, sass, coffeescript を使う
 - bootstrap ベースのデザインを使う
