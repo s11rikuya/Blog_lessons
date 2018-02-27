@@ -1,0 +1,29 @@
+p#notice
+  = notice
+p
+  | この記事のID: 
+  = @post.id
+p
+  strong
+    | Title:
+  = @post.title
+p
+  strong
+    | Text:
+  = @post.text
+= link_to 'Edit', edit_post_path(@post)
+|  | 
+= link_to 'Back', posts_path
+div
+  - if @comments
+    - @comments.each do |comment|
+      p
+        = comment.name
+        | : 
+        = comment.text
+  = form_tag("/posts/#{@post.id}/comments", method: :post) do
+    p
+      input[type="text" name="name" placeholder="名前"]
+    textarea[cols="30" name="text" placeholder="コメントする" rows="2"]
+    p
+      input[type="submit" value="SENT"]
