@@ -7,21 +7,25 @@
 }
 
 .article-boxs {
-  // display: flex;
-  // justify-content: space-between;
 }
 
 .article-box {
+  position: relative;
   width: 100%;;
   border: black solid;
-  // text-align: center;
   margin: 20px 0px;
+  padding: 10px;
+  h1 {
+    font-size: 22px;
+  }
 }
 
-.article-box-description {
-  display: flex;
-  // justify-content: center;
-  p {
-    margin: 0 5px;
+.delete-box {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 25px;
+  a {
+    text-decoration: none;
   }
 }

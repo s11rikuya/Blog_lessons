@@ -3,13 +3,9 @@
   <div class="article-boxs">
     <% @posts.each do |post| %>
     <article class="article-box">
-      <p><%= post.created_at %></p>
-      <h1><%= post.title %></h1>
-      <div class="article-box-description">
-        <p><%= link_to 'Edit', edit_post_path(post) %></p>
-        <p><%= link_to 'Show', post %></p>
-        <p><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></p>
-      </div>
+      <%= post.created_at %>
+      <h1><%= link_to post.title, post %></h1>
+      <div class="delete-box"><%= link_to '×', post, method: :delete, data: { confirm: 'Are you sure?' } %></div>
     </article>
     <% end %>
   </div>
