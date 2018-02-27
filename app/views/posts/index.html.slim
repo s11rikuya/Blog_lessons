@@ -4,14 +4,8 @@
   .article-boxs
     - @posts.each do |post|
       article.article-box
-        p
-          = post.created_at
+        = post.created_at
         h1
-          = post.title
-        .article-box-description
-          p
-            = link_to 'Edit', edit_post_path(post)
-          p
-            = link_to 'Show', post
-          p
-            = link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' }
+          = link_to post.title, post
+        .delete-box
+          = link_to '×', post, method: :delete, data: { confirm: 'Are you sure?' }
