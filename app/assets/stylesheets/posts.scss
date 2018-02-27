@@ -1,3 +1,27 @@
 // Place all the styles related to the posts controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.index-box {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.article-boxs {
+  // display: flex;
+  // justify-content: space-between;
+}
+
+.article-box {
+  width: 100%;;
+  border: black solid;
+  // text-align: center;
+  margin: 20px 0px;
+}
+
+.article-box-description {
+  display: flex;
+  // justify-content: center;
+  p {
+    margin: 0 5px;
+  }
+}

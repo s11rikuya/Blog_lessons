@@ -7,6 +7,13 @@ body {
   line-height: 18px;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid black;
+}
+
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
