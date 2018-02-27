@@ -12,6 +12,9 @@
 - bootstrap ベースのデザインを使う
 
 # 進行状況
-2018/2/27 blog機能 コメント機能完成 残り
-- slim, sass, coffeescript を使う
+2018/2/26 blog機能 コメント機能完成
+2018/2/27 slim gem追加 slim化
+
+# 残りタスク
+- sass, coffeescript を使う
 - bootstrap ベースのデザインを使う
