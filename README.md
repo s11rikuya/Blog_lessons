@@ -27,11 +27,6 @@
 - Bootstrap導入 topのみスタイル指定済み
 - branch切った後pushできない問題　originを設定
 
-# 残りタスク
-
-- coffeescript を使う
-- bootstrap ベースのデザインを使う
-
 # 課題
 
 ## 要勉強
