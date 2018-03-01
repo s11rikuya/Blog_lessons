@@ -26,6 +26,7 @@
 ## 2018/2/28
 - Bootstrap導入 topのみスタイル指定済み
 - branch切った後pushできない問題　originを設定
+- scss to sass コンパイル
 
 # 課題
 

@@ -2,7 +2,7 @@ doctype html
 html
   head
     title
-      | BlogLessons
+      | Blog
     = csrf_meta_tags
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
@@ -15,14 +15,15 @@ html
               h4.text-white
                 | About
               p.text-muted
-                | Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.
+                |  One day I asked a company to work overseas.
+                br
+                |  That company's boss gave me the challenge using rails.
+                br
+                |  So I am challenging the problem. 
             .col-sm-4.offset-md-1.py-4
-              h4.text-white
-                | Contact
-              ul.list-unstyled
-                li
-                  a.text-white[href="/posts/new"]
-                    | New Post
+              h4
+                a.text-white[href="/posts/new"]
+                  | New Post
       .navbar.navbar-dark.bg-dark.box-shadow
         .container.d-flex.justify-content-between
           a.navbar-brand.d-flex.align-items-center[href="/"]
