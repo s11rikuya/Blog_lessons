@@ -38,6 +38,7 @@ gem 'html2slim'
 gem 'bootstrap'
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'i18n'
 
 
 group :development, :test do
