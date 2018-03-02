@@ -29,7 +29,7 @@
 - scss to sass コンパイル
 
 ## 2018/3/2
-- Top-title I18n対応
+- Top-title i18n対応
 
 # 課題
 
