@@ -28,6 +28,9 @@
 - branch切った後pushできない問題　originを設定
 - scss to sass コンパイル
 
+## 2018/3/2
+- Top-title I18n対応
+
 # 課題
 
 ## 要勉強
