@@ -204,6 +204,7 @@ DEPENDENCIES
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   html2slim
+  i18n
   jbuilder (~> 2.5)
   jquery-rails
   jquery-ui-rails
