@@ -203,4 +203,7 @@ ja:
       long: "%Y年%m月%d日(%a) %H時%M分%S秒 %z"
       short: "%y/%m/%d %H:%M"
     pm: 午後
-  title: 俺の日記
+  layouts:
+    application:
+      title: 俺の日記
+      about_html: 私は海外で働きたいと思いある会社を訪ねた。<br>ボスは私にいくつかのプログラミングの課題を出した。<br>それがこのアプリである。

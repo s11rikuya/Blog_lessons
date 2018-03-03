@@ -1,0 +1,5 @@
+
+$('.comment_field').val('');
+$('#comments-box').html(
+  '<p>受け付けました</p><%= render partial: 'comments/comment', collection: @comments %>'
+);
