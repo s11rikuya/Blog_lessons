@@ -32,7 +32,7 @@
 - Top-title i18n対応
 
 ## 2018/3/3
-- ajax コメントsent時jqueryによるテンプレのみ再呼び出し
+- ajax コメントsent時jqueryでテンプレのみ再呼び出し
 
 # 課題
 
