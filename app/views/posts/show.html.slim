@@ -1,7 +1,7 @@
 p#notice
   = notice
 p
-  | この記事のID: 
+  | この記事のID:
   = @post.id
 p
   strong
@@ -12,18 +12,15 @@ p
     | Text:
   = @post.text
 = link_to 'Edit', edit_post_path(@post)
-|  | 
+|  |
 = link_to 'Back', posts_path
+div#comments-box
+  = render partial: 'comments/comment', collection: @comments
 div
-  - if @comments
-    - @comments.each do |comment|
-      p
-        = comment.name
-        | : 
-        = comment.text
-  = form_tag("/posts/#{@post.id}/comments", method: :post) do
+  = form_tag("/posts/#{@post.id}/comments", method: :post, remote: :true) do
     p
-      input[type="text" name="name" placeholder="名前"]
-    textarea[cols="30" name="text" placeholder="コメントする" rows="2"]
+      input.comment_field [type="text" name="name" placeholder="名前"]
+    p
+      textarea.comment_field [cols="30" name="text" placeholder="コメントする" rows="2"]
     p
       input[type="submit" value="SENT"]
